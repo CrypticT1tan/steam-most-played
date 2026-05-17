@@ -50,7 +50,7 @@ Create a .env file named ".env" in the same directory as the program files with 
 API_KEY = "<INSERT-YOUR-API-KEY-HERE>"
 ```
 
-While you are still in your virtual environment, run this command to run the program:
+While you are still in your virtual environment, run this command to start the program:
 ```bash
 python3 visualizer.py
 ```
