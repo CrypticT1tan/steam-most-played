@@ -45,7 +45,7 @@ Go to https://steamcommunity.com/dev, skim to "Obtaining an Steam Web API Key", 
 
 Register for an API Key and save it once it gets shown to you. Or you can always go to https://steamcommunity.com/dev/apikey to see it again.  
 
-Create a .env file with these contents in the same directory as the program files:
+Create a .env file named ".env" in the same directory as the program files with the following contents:
 ```bash
 API_KEY = "<INSERT-YOUR-API-KEY-HERE>"
 ```
