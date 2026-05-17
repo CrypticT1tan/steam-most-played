@@ -40,7 +40,9 @@ pip install python-dotenv
 ```
 ## USAGE 🔧
 You must have a Steam account in order to use this program.  
+
 Go to https://steamcommunity.com/dev, skim to "Obtaining an Steam Web API Key", and click the "by filling out this form" hyperlink.  
+
 Register for an API Key and save it once it gets shown to you. Or you can always go to https://steamcommunity.com/dev/apikey to see it again.  
 
 Create a .env file with these contents in the same directory as the program files:
@@ -54,6 +56,7 @@ python3 visualizer.py
 ```
 
 You will then be prompted to enter a URL. Copy a Steam user's profile URL (found at the top of the page in the desktop app or in the top search bar on the webpage). Paste the URL and press ENTER to proceed.  
+
 A pie chart will be generated with the user's most played games if their profile is made public or exists. Otherwise, the program will tell you that their profile cannot be accessed or doesn't exist.  
 
 When you are done with the program, you can deactivate the virtual environment with this command:
